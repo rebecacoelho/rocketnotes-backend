@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "music-album",
+  "builts": [
+    { "src": "./src/server.js", "use": "@versel/node" }
+  ],
+  "routes": [
+    { "src": "./(.*)", "dest":  "./src/server.js" }
+  ]
+}
